@@ -1,0 +1,591 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Fira Sans', sans-serif;
+    background-color:  #F5F5F5;
+    color: #0E0E0E;
+}
+/* heading */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 98px;
+    background-color: #F5F5F5;
+}
+.nav-title
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.btn-primary
+{
+    padding: 8px 16px; 
+    font-size: 16px; 
+    background-color:  #F5F5F5;
+    border: 1px solid #006A50;
+    color: #006A50;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* banner */
+.banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 80px;
+    margin: 50px;
+    background-color: #C6E4D6;
+    border-radius: 30px;
+    height: 560px;
+    width: 1800px;
+}
+.banner-title
+{
+    color: #0E0E0E;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.banner-description
+{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.banner-btn-container
+{
+    display: flex;
+    justify-content: flex-start; 
+    width: 50%;
+}    
+.banner-btn
+{
+    padding: 18px 18px; 
+    font-size: 12px; 
+    background-color: #006A50;
+    border: 1px solid #006A50;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+.banner img
+{
+    max-width: 550px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+/* pillars */
+.pillars
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 40px 20px;
+    background-color: #F9FAFB; 
+    border-radius: 12px;
+    margin: 30px; 
+}
+.pillarr
+{
+    color: #0E0E0E;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.pillar-container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    justify-content: space-around;
+}
+
+.pillar
+{
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px #757575; 
+    text-align: center; 
+    padding: 20px 15px;
+}
+.pillar img
+{ 
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.pillar-title
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+    margin-bottom: 8px;
+}
+.pillar-description
+{
+    font-size: 14px;
+    color: #393A3A; 
+}
+/* vision */
+.vision
+{
+    padding: 40px 20px;
+    background-color: #F9FAFB;
+    border-radius: 12px;
+    margin: 30px;
+    text-align: left;
+}
+.vision-heading
+{
+    font-size: 28px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+
+}
+.vision-peragraph
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #393A3A;
+    margin-bottom: 20px;
+}
+.vision-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.vision-1
+{
+    background: #97b9f5;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 30px;
+    padding: 20px;
+    text-align: left;
+}
+.vision-2
+{
+    background: #C6E4D6;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 30px;
+    padding: 20px;
+    text-align: left;
+}
+.vision-3
+{
+    background: #F7EBCF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 30px;
+    padding: 20px;
+    text-align: left;
+}
+.vision img
+{
+    height: 60px;
+    width: 60px; 
+    margin-bottom: 15px;
+}
+.vision-title
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+}
+.vision-description
+{
+    font-size: 14px;
+    color: #393A3A;
+    margin-bottom: 20px;
+}
+.vision-btn-1
+ {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.vision-btn-2
+{
+    background-color: #09A15C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.vision-btn-3
+{
+    background-color: #FFC239;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.vision-1, .vision-2, .vision-3
+{
+    width: 400px;
+}
+/* advice */
+.advice
+{
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+    background-image: url('../B11A1--assignment-1/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: left center; 
+    border: 1px solid #757575; 
+    border-radius: 10px;
+    margin: 30px;
+    position: relative; 
+    text-align: left;
+    width: 97%;
+}
+.advice-container
+{
+    position: relative;
+    text-align: left;
+}
+.advice .quote
+{
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+}
+.advice h4
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 5px;
+}
+.advice .position
+{
+    font-size: 14px;
+    color: #555;
+}
+/* Opinion*/
+.opinion-container
+{
+    width: 90%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:#333;
+}
+.opinion-container h2
+{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+.opinion-table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.opinion-table thead th
+{
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+.opinion-table tbody td
+{
+    padding: 15px;
+    font-size: 14px;
+    color: #393A3A;
+    border-bottom: 1px solid #E0E0E0;
+}
+.opinion-table tbody td select
+{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+/* Recent News */
+.recent-news-container
+{
+    width: 90%;
+    margin: 30px;
+    padding: 20px;
+    background-color: #F9FAFB;
+    border-radius: 12px;
+    box-shadow: #333;
+}
+.recent-news-container h2
+{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0E0E0E;
+}
+.recent-news-container p
+{
+    font-size: 16px;
+    color: #393A3A;
+    margin-bottom: 20px;
+}
+.news-card
+{
+    display: flex;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: #333;
+}
+.news-card img
+{
+    width: 280px;
+    height: 200px;
+    border-radius: 8px;
+}
+.news-content h3
+{
+    font-size: 18px;
+    color: #0E0E0E;
+    margin-bottom: 5px;
+}
+.news-content .source
+{
+    font-size: 14px;
+    color: #006A50;
+    font-weight: 700;
+}
+.news-content .date-time
+{
+    font-size: 12px;
+    color: #7D7D7D;
+    margin-bottom: 10px;
+}
+.news-content .news-summary
+{
+    font-size: 14px;
+    color: #393A3A;
+    margin-bottom: 15px;
+}
+.read-more
+{
+    background-color: #006A50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.source
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.source .logo
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    gap: 20px;
+}
+.news-card.reverse
+{
+    flex-direction: row-reverse; 
+}
+/* Donate*/
+.donate
+{
+    background-color: #f9f9f9; 
+    padding: 50px 20px; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: #333; 
+    margin: 50px;
+}
+.donate h1
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+.donate p
+{
+    font-size: 19px;
+    color: #555; 
+    margin-bottom: 30px;
+}
+.donate div
+{
+    margin-bottom: 20px;
+}
+.donate button
+{
+    background-color: #006A50; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.donate input[type="text"]
+{
+    width: 700px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.donate-container button:last-of-type
+{
+    background-color: #006A50; 
+    margin-top: 10px;
+    padding: 12px 25px;
+    font-weight: 700;
+}
+.d-btn
+{
+    display: block;
+    padding: 10px;
+    margin: 20px auto; 
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; 
+    color: #fff; 
+    cursor: pointer;
+}
+/* subscribe */
+.subscribe
+{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: #1b1b1b;
+}
+.subscribe-container h1
+{
+    font-size: 28px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+}
+.subscribe-container p
+{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.subscribe-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.subscribe-form input[type="email"]
+{
+    width: 60%;
+    max-width: 400px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+}
+.subscribe-form .subscribe-btn
+{
+    background-color: #007B55; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.subscribe-note
+{
+    font-size: 14px;
+    color: #888; 
+    margin-top: 10px;
+}
+.footer
+{
+    text-align: center;
+    padding: 20px 0;
+}
+.footer h1
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer hr
+{
+    width: 60%;
+    margin: 0 auto 20px;
+    border: 0;
+    border-top: 1px solid #E0E0E0; 
+}
+.social-icons
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icons a img 
+{
+    width: 24px;
+    height: 24px;
+}
